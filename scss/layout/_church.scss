@@ -34,6 +34,7 @@
 			background-color: $color-grey--light;
 			padding: 2em;
 			border-radius: 1em;
+			transition: all 0.2s ease;
 			&__headshot {
 				filter: grayscale(1) blur(2px);
 				transition: all 0.2s ease;
@@ -43,6 +44,13 @@
 				margin: 0 1em 0 0;
 				& img {
 					border-radius: 10px;
+				}
+			}
+			&:hover {
+				transform: translateY(-3px);
+				box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.35);
+				.candidate__headshot {
+					filter: grayscale(0) blur(0);
 				}
 			}
 
