@@ -1,0 +1,9 @@
+.btn {
+	border-radius: 10px;
+	&__primary {
+		&--solid {
+			background-color: $color-primary;
+			color: white;
+		}
+	}
+}

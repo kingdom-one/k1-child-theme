@@ -1,0 +1,66 @@
+@import 'abstracts/variables';
+@import 'abstracts/vendors';
+.login {
+	font-family: $font-primary;
+	margin: 0 auto;
+	background-color: $color-primary;
+	background-image: linear-gradient(
+		to right bottom,
+		transparent,
+		rgba(0, 0, 0, 0.35)
+	);
+	& h1 a {
+		background-image: url('http://kingdomone.co/wp-content/uploads/2021/09/KingdomOne-1024x241.png');
+		background-size: contain;
+		// height: 200%;
+		width: 100%;
+		margin: 4rem auto;
+	}
+	#login {
+		width: auto;
+		max-width: 80vw;
+
+		#loginform {
+			border-radius: 10px;
+			background-color: $color-grey--light;
+			.submit input {
+				transition: all 0.2s ease-out;
+				background-color: $color-primary;
+				border: 3px solid transparent;
+				font-size: 20px;
+				font-weight: 700;
+				font-family: 'Poppins', sans-serif;
+				transform: translateY(0);
+				box-shadow: none;
+				&:hover {
+					box-shadow: 2px 2px 4px rgba(black, 0.5);
+					border: 3px solid $color-primary;
+					background-color: transparent;
+					color: $color-primary;
+					transform: translateY(-5px);
+				}
+			}
+			label {
+				font-family: 'Poppins', sans-serif;
+				font-size: 16px;
+				font-weight: 700;
+			}
+			p.forgetmenot label {
+				font-weight: 400;
+			}
+		}
+		#nav,
+		#backtoblog {
+			a {
+				font-family: 'Poppins', sans-serif;
+				font-size: 16px;
+				transition: all 0.2s ease;
+				color: $color-grey--light;
+				&:hover {
+					color: white;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

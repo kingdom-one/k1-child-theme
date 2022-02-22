@@ -1,0 +1,216 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./scss/login.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./scss/main.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./scss/login.scss (1) ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+:root {
+  --color-primary: #00ad82;
+  --color-primary--dark: #0a614b;
+  --color-secondary: #625448;
+  --color-grey--light: #e6e4e8;
+  --color-grey--dark: #545454;
+}
+
+.login {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0 auto;
+  background-color: #00ad82;
+  background-image: linear-gradient(to right bottom, transparent, rgba(0, 0, 0, 0.35));
+}
+.login h1 a {
+  background-image: url("http://kingdomone.co/wp-content/uploads/2021/09/KingdomOne-1024x241.png");
+  background-size: contain;
+  width: 100%;
+  margin: 4rem auto;
+}
+.login #login {
+  width: auto;
+  max-width: 80vw;
+}
+.login #login #loginform {
+  border-radius: 10px;
+  background-color: #e6e4e8;
+}
+.login #login #loginform .submit input {
+  transition: all 0.2s ease-out;
+  background-color: #00ad82;
+  border: 3px solid transparent;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  transform: translateY(0);
+  box-shadow: none;
+}
+.login #login #loginform .submit input:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 3px solid #00ad82;
+  background-color: transparent;
+  color: #00ad82;
+  transform: translateY(-5px);
+}
+.login #login #loginform label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.login #login #loginform p.forgetmenot label {
+  font-weight: 400;
+}
+.login #login #nav a,
+.login #login #backtoblog a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  color: #e6e4e8;
+}
+.login #login #nav a:hover,
+.login #login #backtoblog a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./scss/main.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+:root {
+  --color-primary: #00ad82;
+  --color-primary--dark: #0a614b;
+  --color-secondary: #625448;
+  --color-grey--light: #e6e4e8;
+  --color-grey--dark: #545454;
+}
+
+.x-header-landmark {
+  display: none;
+}
+
+.page-header {
+  margin-top: 30vh;
+  margin-bottom: 10vh;
+}
+
+.church .hero {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e4e8;
+  padding: 20vh 0;
+}
+.church .hero--headline {
+  color: #00ad82;
+  margin: 0;
+}
+.church .hero--subheadline {
+  color: black;
+  font-size: 1.4em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.church .candidates {
+  padding: 65px 0;
+}
+.church .candidates .row {
+  width: 80vw;
+  margin: 3em auto;
+  height: auto;
+}
+.church .candidates .intro--headline {
+  color: black;
+}
+.church .candidates .intro--headline span {
+  color: #00ad82;
+}
+.church .candidates .candidate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  background-color: #e6e4e8;
+  padding: 2em;
+  border-radius: 1em;
+}
+.church .candidates .candidate__headshot {
+  filter: grayscale(1) blur(2px);
+  transition: all 0.2s ease;
+  margin: 0 1em 0 0;
+}
+@media only screen and (max-width: 640px) {
+  .church .candidates .candidate__headshot {
+    margin: 0 0 1em 0;
+  }
+}
+.church .candidates .candidate__headshot img {
+  border-radius: 10px;
+}
+.church .candidates .candidate__display {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  max-width: 66%;
+}
+.church .candidates .candidate__display--name {
+  margin: 0;
+  color: black;
+  font-size: 3em;
+  letter-spacing: 0.06em;
+}
+.church .candidates .candidate__display--name span {
+  color: #00ad82;
+}
+.church .candidates .candidate__display--summary {
+  flex-shrink: 0;
+  margin-bottom: auto;
+}
+.church .candidates .candidate__display--see-more {
+  margin-top: 3em;
+  display: block;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.4em;
+  letter-spacing: 0.06em;
+  color: #00ad82;
+  border: 2px solid #00ad82;
+  background-color: white;
+  padding: 0.5em 0.8em;
+  border-radius: 10px;
+  justify-self: flex-end;
+  transition: all 0.2s ease-out;
+}
+.church .candidates .candidate__display--see-more:hover {
+  border: 2px solid transparent;
+  background-color: #00ad82;
+  color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
+  transform: translateY(-5px);
+}
+
+.k1-author {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+.k1-author--photo {
+  margin-right: 10px;
+}
+.k1-author--photo img {
+  border-radius: 50%;
+}
+.k1-author__info-text {
+  font-size: 1em;
+}
+.k1-author__info-text h2 {
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

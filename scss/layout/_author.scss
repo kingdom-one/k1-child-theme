@@ -1,0 +1,15 @@
+.k1-author {
+	@include displayFlex(row, start, center);
+	&--photo {
+		margin-right: 10px;
+		img {
+			border-radius: 50%;
+		}
+	}
+	&__info-text {
+		font-size: 1em;
+		& h2 {
+			margin: 0;
+		}
+	}
+}

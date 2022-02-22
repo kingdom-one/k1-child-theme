@@ -1,0 +1,18 @@
+// COLORS
+$color-primary: #00ad82;
+$color-primary--dark: #0a614b;
+$color-secondary: #625448;
+$color-grey--light: #e6e4e8;
+$color-grey--dark: #545454;
+
+// FONTS
+$font-primary: 'Bebas Neue', sans-serif;
+$font-secondary: 'Poppins', sans-serif;
+
+:root {
+	--color-primary: #{$color-primary};
+	--color-primary--dark: #{$color-primary--dark};
+	--color-secondary: #{$color-secondary};
+	--color-grey--light: #{$color-grey--light};
+	--color-grey--dark: #{$color-grey--dark};
+}

@@ -1,0 +1,90 @@
+.church {
+	.hero {
+		@include displayFlex(column, center, center);
+		background-color: $color-grey--light;
+		padding: 20vh 0;
+		&--headline {
+			color: $color-primary;
+			margin: 0;
+		}
+		&--subheadline {
+			color: black;
+			font-size: 1.4em;
+			font-family: $font-secondary;
+			font-weight: 700;
+		}
+	}
+	.candidates {
+		padding: 65px 0;
+		.row {
+			width: 80vw;
+			margin: 3em auto;
+			height: auto;
+		}
+		.intro {
+			&--headline {
+				color: black;
+				& span {
+					color: $color-primary;
+				}
+			}
+		}
+		.candidate {
+			@include displayFlex;
+			background-color: $color-grey--light;
+			padding: 2em;
+			border-radius: 1em;
+			&__headshot {
+				filter: grayscale(1) blur(2px);
+				transition: all 0.2s ease;
+				@media only screen and (max-width: 640px) {
+					margin: 0 0 1em 0;
+				}
+				margin: 0 1em 0 0;
+				& img {
+					border-radius: 10px;
+				}
+			}
+
+			&__display {
+				@include displayFlex(column);
+				max-width: 66%;
+				&--name {
+					margin: 0;
+					color: black;
+					font-size: 3em;
+					letter-spacing: 0.06em;
+					& span {
+						color: $color-primary;
+					}
+				}
+				&--summary {
+					flex-shrink: 0;
+					margin-bottom: auto;
+					// max-width: 60%;
+				}
+				&--see-more {
+					margin-top: 3em;
+					display: block;
+					font-family: $font-primary;
+					font-size: 1.4em;
+					letter-spacing: 0.06em;
+					color: $color-primary;
+					border: 2px solid $color-primary;
+					background-color: white;
+					padding: 0.5em 0.8em;
+					border-radius: 10px;
+					justify-self: flex-end;
+					transition: all 0.2s ease-out;
+					&:hover {
+						border: 2px solid transparent;
+						background-color: $color-primary;
+						color: white;
+						box-shadow: 2px 2px 2px rgba(black, 0.35);
+						transform: translateY(-5px);
+					}
+				}
+			}
+		}
+	}
+}
