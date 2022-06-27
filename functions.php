@@ -32,7 +32,7 @@ function child_enqueue_styles() {
     // enqueue child styles
     wp_enqueue_style('k1-styles', get_stylesheet_directory_uri() . '/build/index.css', array(), '2.0.0');
     wp_enqueue_script('k1-js', get_stylesheet_directory_uri() . '/build/index.js', array(), '2.0.0', true);
-    wp_localize_script('k1-js', 'sparkData', array(
+    wp_localize_script('k1-js', 'k1SiteData', array(
         'root_url' => get_site_url()
     ));
 }
