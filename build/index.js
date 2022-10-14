@@ -1,1 +1,1 @@
-!function(){"use strict";!function(){const e=document.getElementById("copyright"),n=(new Date).getFullYear();e.innerHTML=`<p>&copy; ${n} Kingdom One All Rights Reserved.`}()}();
+(()=>{"use strict";!function(){const e=document.getElementById("copyright"),t=(new Date).getFullYear();e.innerHTML=`<p>&copy; ${t} Kingdom One All Rights Reserved.`}()})();
