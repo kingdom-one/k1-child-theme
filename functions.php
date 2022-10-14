@@ -25,8 +25,8 @@ add_filter('x_enqueue_parent_stylesheet', '__return_true');
 
 require get_theme_file_path('/inc/functions-partials/white-label-login.php');
 require get_theme_file_path('/inc/functions-partials/custom-admin.php');
-require get_theme_file_path('/inc/functions-partials/custom-json.php');
-require get_theme_file_path('/inc/functions-partials/subscribers.php');
+// require get_theme_file_path('/inc/functions-partials/custom-json.php');
+// require get_theme_file_path('/inc/functions-partials/subscribers.php');
 
 function child_enqueue_styles() {
     // enqueue child styles
